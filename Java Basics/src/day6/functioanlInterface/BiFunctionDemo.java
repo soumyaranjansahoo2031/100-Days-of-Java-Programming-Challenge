@@ -1,4 +1,4 @@
-package day6;
+package day6.functioanlInterface;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

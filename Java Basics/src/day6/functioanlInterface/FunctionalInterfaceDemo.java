@@ -1,4 +1,4 @@
-package day6;
+package day6.functioanlInterface;
 
 @FunctionalInterface
 interface BookAction {

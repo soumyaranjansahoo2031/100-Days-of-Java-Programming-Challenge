@@ -1,4 +1,4 @@
-package day6;
+package day6.functioanlInterface;
 
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
