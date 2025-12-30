@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="772f6130-e163-4ba1-b0d2-7c21bae4f0bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coupling-demo/coupling-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupling-demo/src/loose/EmailNotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupling-demo/src/loose/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupling-demo/src/loose/SMSNotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupling-demo/src/loose/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupling-demo/src/tight/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupling-demo/src/tight/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-spring/src/main/java/com/example/demo/GreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-spring/src/main/java/com/example/demo/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-spring/src/main/java/com/example/loose/EmailNotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-spring/src/main/java/com/example/loose/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-spring/src/main/java/com/example/loose/SMSNotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-spring/src/main/java/com/example/loose/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-spring/src/main/resources/applicationBeanContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/src/main/java/com/example/demo/GreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/src/main/java/com/example/demo/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/src/main/java/com/example/loose/EmailNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/src/main/java/com/example/loose/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/src/main/java/com/example/loose/SMSNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/src/main/java/com/example/loose/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second-spring/src/main/resources/applicationBeanContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/first-spring" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProblemsViewState">
@@ -66,7 +66,7 @@
     "ignore.preview.features.used": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Charlie/100 Days of Java Programming Language/100-Days-of-Java-Programming-Challenge/Spring Basics/first-spring/src/main/java/com/example",
+    "last_opened_file_path": "C:/Users/Charlie/100 Days of Java Programming Language/100-Days-of-Java-Programming-Challenge/Spring Basics",
     "onboarding.tips.debug.path": "C:/Users/Charlie/100 Days of Java Programming Language/100-Days-of-Java-Programming-Challenge/Spring Basics/coupling-demo/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -77,6 +77,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Charlie\100 Days of Java Programming Language\100-Days-of-Java-Programming-Challenge\Spring Basics" />
       <recent name="C:\Users\Charlie\100 Days of Java Programming Language\100-Days-of-Java-Programming-Challenge\Spring Basics\first-spring\src\main\java\com\example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">

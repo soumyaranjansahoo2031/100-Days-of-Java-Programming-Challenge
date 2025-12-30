@@ -10,15 +10,22 @@ public class MyApp {
     public static void main(String[] args) {
 //        ApplicationContext context =
 //                new ClassPathXmlApplicationContext("applicationBeanContext.xml");
-        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        GreetingService greetingService =
-                (GreetingService) context.getBean("myBean");
-        greetingService.sayHello();
+//        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        UserService userService =
-                (UserService) context.getBean("UserServiceEmail");
-        userService.notifyUser("what's up?");
+        LifeCycleBean bean = context.getBean(LifeCycleBean.class);
+        bean.performTask();
+        context.close();
+//
+//        GreetingService greetingService =
+//                (GreetingService) context.getBean("myBean");
+//        greetingService.sayHello();
+//
+//        UserService userService =
+//                (UserService) context.getBean("UserServiceEmail");
+//        userService.notifyUser("what's up?");
+
 //
 //        UserService userService2 =
 //                (UserService) context.getBean("UserServiceSMS");
