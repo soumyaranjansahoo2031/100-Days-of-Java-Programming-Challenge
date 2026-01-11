@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$/security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security4_JWT/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security5_JWT_RoleBasedAccess/src/main/java" charset="UTF-8" />
   </component>
 </project>

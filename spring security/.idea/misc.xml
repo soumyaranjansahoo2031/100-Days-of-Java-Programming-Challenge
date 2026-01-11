@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/security/pom.xml" />
         <option value="$PROJECT_DIR$/security2/pom.xml" />
         <option value="$PROJECT_DIR$/security3/pom.xml" />
+        <option value="$PROJECT_DIR$/security4_JWT/pom.xml" />
+        <option value="$PROJECT_DIR$/security5_JWT_RoleBasedAccess/pom.xml" />
       </list>
     </option>
   </component>
