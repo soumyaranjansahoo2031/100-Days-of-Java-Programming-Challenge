@@ -7,12 +7,14 @@ import com.fitness.userservice.repository.UserRepository;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.jspecify.annotations.Nullable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class UserService {
 
 //    @Autowired
@@ -66,6 +68,7 @@ public class UserService {
     }
 
     public Boolean existByUserId(String userId) {
+        log.info("from USER SERVICE --> calling user service for {}",userId);
         return userRepository.existsById(userId);
     }
 }

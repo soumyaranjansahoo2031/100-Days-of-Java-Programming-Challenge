@@ -18,6 +18,7 @@ public class WebClientConfig {
     public WebClient userServiceWebClient(WebClient.Builder webClientBuilder){
         return webClientBuilder
                 .baseUrl("http://USERSERVICE")
+//                .baseUrl("http://localhost:8081")
                 .build();
     }
 }
