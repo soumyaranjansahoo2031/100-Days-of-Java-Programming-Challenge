@@ -32,6 +32,4 @@ public class Activity {
 
     @LastModifiedDate
     private LocalDateTime updatedAt;
-
-
 }
