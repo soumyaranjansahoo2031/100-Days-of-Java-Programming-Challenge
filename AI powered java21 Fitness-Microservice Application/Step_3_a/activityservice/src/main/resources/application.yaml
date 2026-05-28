@@ -1,0 +1,42 @@
+#spring.application.name=activityservice
+#
+#spring.data.mongodb.uri=mongodb://localhost:27017/fitness
+#spring.data.mongodb.database=fitness
+#
+#server.port=8082
+#
+#logging.level.org.springframework.data.mongodb=DEBUG
+#logging.level.org.mongodb.driver=DEBUG
+#
+#eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
+#
+spring:
+  application:
+    name: ACTIVITY-SERVICE
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/fitness
+      database: fitness
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    properties:
+      spring.json.trusted.packages: "*"
+kafka:
+  topic:
+    name: activity-events
+
+server:
+  port: 8082
+
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
+    org.mongodb.driver: DEBUG
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
